@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+             
+         <div> 
+        <h1 id="cabecalho-titulo">Super vagas</h1>
+             <br>
+         <p id="cabecalho-sub-tiulo">Nos temos a vaga certa para você.</p>
+         </div>
+           <br>
+           <br>
+           
+             
+
+                <form>
+                    <fieldset class="form-principal">
+                        <div> 
+                        <Label for="nome"><strong>Nome</strong></Label>
+                        <input type="text" id="nome" placeholder="Digite seu nome " required>
+                        </div>
+                         
+                        <div class="campo"> 
+                        <label for="endereco"><strong>Sobrenome</strong></label>
+                        <input type="text" id="endereco" placeholder="Digite seu sobrenome"required>
+                        </div>
+                    </fieldset>
+
+                       <div class="campo"> 
+                         <label for="tel"><strong>Telefone</strong>
+                            <input type="tel" name="" id="tel" placeholder="Digite seu numero + DDD"required> 
+                        </label>
+                     
+                          <label for="email"><strong>Email</strong>
+                            <input type="email" name="" id="email" placeholder="exemplo@plataforma.com" min="5" max="10" required>
+                         </label>
+                        </div>
+                          
+                          <div class="radio"> 
+                         <label for="area"><strong>Aréa de trabalho</strong><br>
+                          <br>
+                         <input type="radio" name="area" id="area" value="analista" > Analista
+                         <input type="radio" name="area" id="area" value="programador"> Programador
+                         <input type="radio" name="area" id="area" value="gerente" > Gerente
+                         <input type="radio" name="area" id="area" value="motorista" > Motorista
+                          
+                        </label>
+                         </div>
+                           
+                          <div> 
+                           <br>
+                        <textarea name="escreve" id="escreva" cols="30" rows="10" maxlength="200">Escreva sua experiência com Maximo 200 caracteres</textarea>
+                        </div>
+                        <br>
+                        <br>
+                        <div> 
+                            <button type="submit" class="form-button">Candidata-se</button>
+                        </div>
+                      
+                    </form>   
+            
+</body>
+
+</html>
